@@ -9,8 +9,10 @@
 ## Datasets
 UCF Crime Dataset: 
 - https://www.kaggle.com/datasets/odins0n/ucf-crime-dataset/data
+
 Dataset with event start and end frame (only for test dataset): 
 - https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?dl=0&e=1&rlkey=5bg7mxxbq46t7aujfch46dlvz
+
 Original Dataset: 
 - https://www.crcv.ucf.edu/projects/real-world/
 
@@ -25,4 +27,4 @@ Original Dataset:
 - /data — not included
 
 ## Report
-See: docs/G7_report.pdf
+See: docs/[G7_report.pdf](https://github.com/anriwv/CRIME-DETECTION/blob/main/docs/G7_report.pdf)
