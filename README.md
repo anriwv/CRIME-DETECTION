@@ -7,9 +7,9 @@
 
 
 ## Datasets
-UCF Crime Dataset: https://www.kaggle.com/datasets/odins0n/ucf-crime-dataset/data
-Dataset with event start and end frame: https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?dl=0&e=1&rlkey=5bg7mxxbq46t7aujfch46dlvz
-Original Dataset: https://www.crcv.ucf.edu/projects/real-world/
+UCF Crime Dataset: - https://www.kaggle.com/datasets/odins0n/ucf-crime-dataset/data
+Dataset with event start and end frame: - https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?dl=0&e=1&rlkey=5bg7mxxbq46t7aujfch46dlvz
+Original Dataset: - https://www.crcv.ucf.edu/projects/real-world/
 
 ## Project Goals
 1. Train a model to classify activities based on frames.
