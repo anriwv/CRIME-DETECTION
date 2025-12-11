@@ -54,7 +54,7 @@ def analyze_frame(frame, pipe1, pipe2):
     return crime_score, "Normal"
 
 
-# pipe1, pipe2 = load_pipelines()
+pipe1, pipe2 = load_pipelines()
 
 tab1, tab2, tab3 = st.tabs(["Real Time", "Gallery", "Info"])
 
