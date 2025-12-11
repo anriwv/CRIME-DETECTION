@@ -57,6 +57,7 @@ def analyze_frame(frame, pipe1, pipe2):
 pipe1, pipe2 = load_pipelines()
 
 tab1, tab2, tab3 = st.tabs(["Real Time", "Gallery", "Info"])
+BASE_DIR = Path(__file__).resolve().parent
 
 with tab1:
     st.subheader("Turn on Camera, prediction with 3 fps")
@@ -116,7 +117,6 @@ with tab1:
 with tab2:
     st.subheader("Crime Dataset Video Gallery")
 
-    BASE_DIR = Path(__file__).resolve().parent
     ROOT_FOLDERS = ["Train", "Test"]
 
     root_choice = st.selectbox("Select dataset:", ROOT_FOLDERS)
@@ -143,11 +143,11 @@ with tab2:
 with tab3:
     st.subheader("Dataset Statistics")
 
-    stat = pd.read_csv("stat.csv", sep=";", index_col=0)
+    stat = pd.read_csv(BASE_DIR / "stat.csv", sep=";", index_col=0)
     st.dataframe(stat, use_container_width=True)
 
-    train_df = pd.read_csv("train_df.csv", sep=";", index_col=0)
-    test_df = pd.read_csv("test_df.csv", sep=";", index_col=0)
+    train_df = pd.read_csv(BASE_DIR / "train_df.csv", sep=";", index_col=0)
+    test_df = pd.read_csv(BASE_DIR / "test_df.csv", sep=";", index_col=0)
 
     # Samples
     col1, col2 = st.columns(2)
