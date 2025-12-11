@@ -1,0 +1,15 @@
+;Activity;Train Video Count;Test Video Count;Train Frame Count;Test Frame Count
+0;RoadAccidents;127;23;23486;2663
+1;Arson;41;9;24421;2793
+2;Shoplifting;29;21;24835;7623
+3;Stealing;95;5;44802;1984
+4;Burglary;87;13;39504;7657
+5;NormalVideos;800;150;947768;64952
+6;Fighting;45;5;24684;1231
+7;Vandalism;45;5;13626;1111
+8;Explosion;29;21;18753;6510
+9;Arrest;45;5;26397;3365
+10;Abuse;48;2;19076;297
+11;Robbery;145;5;41493;835
+12;Assault;47;3;10360;2657
+13;Shooting;27;23;7140;7630
