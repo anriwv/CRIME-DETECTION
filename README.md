@@ -58,7 +58,7 @@ After revising the scope of the project, the final goals became:
 ### `docs/` - Project Report
 Contains the final PDF report submitted for Homework 10.
 
-- `[G7_report.pdf](https://github.com/anriwv/CRIME-DETECTION/blob/main/docs/G7_report.pdf).pdf` - Final project report
+- [`G7_report.pdf`](https://github.com/anriwv/CRIME-DETECTION/blob/main/docs/G7_report.pdf).pdf - Final project report
 
 ---
 
@@ -112,4 +112,5 @@ To replicate the experiments and analysis performed in this project:
    - `runAllCrimeTrain.ipynb` (+ extend to test videos to calculate accuracy)
 6. **Start the demo application**:
    ```streamlit run src/app.py```
+
 
